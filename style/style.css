@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    background-color: #fafafa;
+    margin-top: 150px;
+}
+
+div.photo{
+    margin-top: -20px;
+}
+
+div.corpo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+}
+
+div.menu{
+    
+    text-align: center;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+/*FIRST BLOCK INSIDE MENU*/
+
+div.firstblock{
+    
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+}
+div.logo img{
+    padding: 20px;
+      
+}
+
+div.ou{
+    padding: 10px;
+    display: flex;
+    color: #8e8e8e;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+div.orlines{
+    
+    width: 5.9rem;
+    height: 0.1rem;
+    background-color: #9d8e8e54;
+    margin-top: 8px;
+    margin-bottom: 30px
+}
+
+div.or{
+    
+    margin: 0rem 1rem;
+    
+}
+
+div.secondblock{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    
+}
+
+input{
+    margin: 5px;
+    width: 70%;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+div.login button{
+    font-weight: bold;
+    padding: 0px;
+    border: 0px;
+    background-color:#4486f0;
+    margin: 10px auto 10px;
+    width: 76%;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+span img{
+    width: 16px;
+    height: 16px;
+}
+span a{
+    text-decoration: none;
+}
+span a::before{
+    color: #404487;
+}
+span.facebookLogin a{
+    
+    font-weight: bold;
+    color: #404487;
+}
+span.forgotPasswordLink a{
+    color:#404487;
+    
+}
+
+/*SECOND BLOCK*/
+div.secondblock{
+    padding: 20px;
+    width: auto;
+}
+div.secondblock a{
+    color:rgba(48,127,250,255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* BELOW SECOND BLOCK*/
+
+div.download{
+   width: 100%;
+      
+}
+.download img{
+    width: 140px;
+    height:40px;
+    padding: 5px;
+}
+
+footer{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: gray
+}
+
+@media (max-width: 1250px) {
+    
+    div.corpo {
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+       
+    }
+    div.menu{
+        width: 50vw;
+    }
+
+    div.photo{
+        display: none;
+    
+    }
+}
