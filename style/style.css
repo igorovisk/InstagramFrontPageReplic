@@ -1,5 +1,6 @@
 *{
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,6 +13,7 @@ body{
 
 div.photo{
     margin-top: -10px;
+    width: auto;
 }
 
 div.corpo{
@@ -26,7 +28,8 @@ div.menu{
     
     text-align: center;
     display: flex;
-    width: 20vw;
+    min-width: 35vw;
+    width: 35vw;
     flex-direction: column;
     padding: 10px;
     
@@ -40,10 +43,21 @@ div.firstblock{
     border: 1px solid rgb(212, 212, 212);
     padding: 10px;
 }
-div.logo img{
-    padding: 20px;
-      
+
+div.logo{
+    padding-top: 30px;
+    margin: auto;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+div.logo img{
+   
+}
+
+
+
 
 div.ou{
     padding: 10px;
@@ -164,46 +178,62 @@ div.copyright{
     padding: 20px;
 }
 
-@media (max-width: 1250px) {
-    
+@media (max-width:850px) {
+    body{
+        margin: 0;
+    }
     div.corpo {
+        margin-top: 40px;
         padding: 20px;
         justify-content: center;
         display: flex;
        
     }
     div.menu{
-        width: 50vw;
+        width: 70vw;
+        margin-right: 40px;
     }
-
-    div.photo{
+    div.photo img{
         display: none;
-    
     }
-}
+    div.logo{
+        margin: auto;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+
 
 @media (max-width: 540px) {
     body{
         margin: 0;
     }
     div.corpo {
-        margin-top: 0px;
+        margin-top: 40px;
         padding: 20px;
         justify-content: center;
         display: flex;
        
     }
     div.menu{
-        width: 50vw;
+        width: 60vw;
     }
-
+    div.login{
+        padding: 5px;
+    }
+    button{
+        padding: 10px;
+    }
     div.photo{
         display: none;
     }
     div.logo img{
         margin-left: auto;
         width: 85%;
-        padding: 20px;
+        padding: 10px;
     }
     footer{
         width: 100vw;
