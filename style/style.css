@@ -38,7 +38,6 @@ div.menu{
 /*FIRST BLOCK INSIDE MENU*/
 
 div.firstblock{
-    
     background-color: white;
     border: 1px solid rgb(212, 212, 212);
     padding: 10px;
@@ -47,17 +46,10 @@ div.firstblock{
 div.logo{
     padding-top: 30px;
     margin: auto;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-div.logo img{
-   
-}
-
-
-
 
 div.ou{
     padding: 10px;
@@ -205,8 +197,7 @@ div.copyright{
     }
     
     
-
-
+}
 @media (max-width: 540px) {
     body{
         margin: 0;
@@ -244,4 +235,3 @@ div.copyright{
         
     }
 }
-
